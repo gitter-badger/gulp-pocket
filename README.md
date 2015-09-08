@@ -1,4 +1,4 @@
-# Gulp Pocket Guide For Busy People
+# Gulp Pocket Guide (For Busy People)
 
 ![MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 
@@ -56,9 +56,11 @@ See attached file for an example https://github.com/heyallan/gulp-pocket/blob/ma
 
 ```shell
 $ gulp
-> running scripts: successful
+> Running 'styles'...
+> Running 'scripts'...
+> ...
 ```
 
 ## Stop it
 
-To stop gulp type `ctl+c` in command line and it will stop.
+Type `CTRL-C ` in command line, and it will stop.
