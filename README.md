@@ -50,4 +50,15 @@ $ npm install --save gulp-minify-css
 
 ## Example
 
-See attached file for an example
+See attached file for an example https://github.com/heyallan/gulp-pocket/blob/master/gulpfile.js
+
+## Run gulp
+
+```shell
+$ gulp
+> running scripts: successful
+```
+
+## Stop it
+
+To stop gulp type `ctl+c` in command line and it will stop.
