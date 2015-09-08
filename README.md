@@ -10,9 +10,9 @@ Build process automator
 
 Preprocess code in development environments (before sending to production). Tipically used for tasks like:
 
+- concatenating and minifying CSS and JavaScript files
 - compressing new or modified images
 - removing console and debugger statements from scripts
-- concatenating and minifying CSS and JavaScript files
 - deploying updates to a production server
 
 ## Install
