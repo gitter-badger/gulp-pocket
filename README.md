@@ -17,7 +17,7 @@ Preprocess code in development environments (before sending to production). Tipi
 
 ## Install
 
-Gulp runs on Node.js, so you'll need Node installed first. Refer to [Node Pocket Guide](https://github.com/heyallan/node-pocket/) for more information.
+Gulp runs on Node and NPM, so you'll need those installed first. Refer to [Node Pocket Guide](https://github.com/heyallan/node-pocket/) for more information on Node.
 
 ```shell
 ## initialize a package.json file (if you haven't)
@@ -30,4 +30,24 @@ $ npm install -g gulp
 $ npm install --save gulp
 ```
 
+## Setup
+
+```shell
+## create gulpfile.js
+$ touch gulpfile.js
+
+## open file in text editor (Atom for instance)
+$ open -a 'Atom' gulpfile.js
+```
+
+## Plugins
+
+```shell
+## install gulp plugins
+$ npm install --save gulp-less
+$ npm install --save gulp-minify-css
+```
+
 ## Example
+
+See attached file for an example
