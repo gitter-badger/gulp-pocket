@@ -20,7 +20,14 @@ Preprocess code in development environments (before sending to production). Tipi
 Gulp runs on Node.js, so you'll need Node installed first. Refer to [Node Pocket Guide](https://github.com/heyallan/node-pocket/) for more information.
 
 ```shell
+## initialize a package.json file (if you haven't)
+$ npm init
+
+## install gulp CLI (prepend with 'sudo' if you are on a mac)
 $ npm install -g gulp
+
+## install gulp in current project, and save as dependency in package.json
+$ npm install --save gulp
 ```
 
 ## Example
